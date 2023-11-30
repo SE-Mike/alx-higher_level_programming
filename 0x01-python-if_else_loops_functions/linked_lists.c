@@ -21,7 +21,10 @@ size_t print_listint(const listint_t *h)
 		n++;
 	}
 
-	return /**
+	return (n);
+}
+
+/**
  * add_nodeint_end - adds a new node at the end of a listint_t list
  * @head: pointer to pointer of first node of listint_t list
  * @n: integer to be included in new node
